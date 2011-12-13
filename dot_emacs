@@ -47,10 +47,10 @@
  )
 
 ;; Erlang
-(setq load-path (cons  "~/src/emacs/erlang"
+(setq load-path (cons  "~/dev/emacs/erlang"
       load-path))
-      (setq erlang-root-dir "/usr/local/Cellar/erlang/R14B03/lib/erlang")
-      (setq exec-path (cons "/usr/local/Cellar/erlang/R14B03/lib/erlang/bin" exec-path))
+      (setq erlang-root-dir "/usr/local/lib/erlang")
+      (setq exec-path (cons "/usr/local/lib/erlang/bin" exec-path))
       (require 'erlang-start)
 
 ;; CEDET
@@ -131,10 +131,10 @@
 (global-set-key (kbd "M-1") "|")
 (global-set-key (kbd "M-2") "@")
 (global-set-key (kbd "M-3") "#")
-(global-set-key (kbd "M-º") "\\")
-(global-set-key (kbd "M-ç") "}")
+(global-set-key (kbd "M-Âº") "\\")
+(global-set-key (kbd "M-Ã§") "}")
 (global-set-key (kbd "M-+") "]")
-(global-set-key (kbd "M-ñ") "~")
+(global-set-key (kbd "M-Ã±") "~")
 
 ;; Anything
 ;;	(add-to-list 'load-path "~/src/anything-config")
